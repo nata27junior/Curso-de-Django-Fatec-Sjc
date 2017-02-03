@@ -1,0 +1,69 @@
+git https://github.com/pedro-valentim/django-fatec/
+
+http://dontpad.com/django-fatec
+http://dontpad.com/django-fatec/view
+
+ Links - Curso Django FATEC
+
+Repositório dos exemplos:
+	Repositorio:
+		https://github.com/pedro-valentim/django-fatec
+
+	Link Download:
+		https://github.com/pedro-valentim/django-fatec/archive/master.zip
+
+Django Packages:
+	https://djangopackages.org/
+
+Django:
+	messages:
+		https://docs.djangoproject.com/pt-br/1.10/ref/contrib/messages/#displaying-messages
+	overview:
+		https://www.djangoproject.com/start/overview/
+	renderizacao de template:
+		https://docs.djangoproject.com/en/1.10/ref/templates/api/
+	urls/views:
+		https://docs.djangoproject.com/en/1.10/topics/http/urls/
+		https://docs.djangoproject.com/en/1.10/topics/http/views/
+	template tags:
+		https://docs.djangoproject.com/en/1.10/ref/templates/builtins/
+
+	media files:
+		https://docs.djangoproject.com/pt-br/1.10/howto/static-files/#serving-files-uploaded-by-a-user-during-development
+
+HTTP:
+	https://nandovieira.com.br/entendendo-um-pouco-mais-sobre-o-protocolo-http
+
+Sublime Text: 
+	https://download.sublimetext.com/Sublime%20Text%20Build%203126.zip
+
+crtl shif d duplica a linha
+
+
+
+
+
+instalar pip e baixar com o comando pip install django ou pip freeze mostra o que esta instalado
+
+iniciar projeto no django django-admin startproject exemplo
+no cdm cd ate a pasta
+
+startar servidor : python manage.py runserver
+
+python manage.py migrate
+
+python manage.py runserver
+
+django-admin startproject exemplo_2
+python manage.py migrate
+python manage.py startapp "nome do app" exemplo calculadora
+checar python manage.py check
+python manage.py runserver
+
+python manage.py makemigrations cria codigos sozinho.
+depois o migrate
+
+python manage.py --help todos os comandos
+
+python manage.py createsuperuser 
+username

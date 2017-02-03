@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}Cadastro{% endblock %}
+
+{% block conteudo %}
+	{% if messages %}
+	<ul class="messages">
+	    {% for message in messages %}
+	    <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+	    {% endfor %}
+	</ul>
+	{% endif %}
+
+	<div style="margin: 10px;display: block;background: #efefef;padding: 10px;">
+		<form method="POST">
+			{% csrf_token %}
+			{{ form }}<br>
+			<button type="submit">Cadastrar</button>
+		</form>
+	</div>
+{% endblock %}

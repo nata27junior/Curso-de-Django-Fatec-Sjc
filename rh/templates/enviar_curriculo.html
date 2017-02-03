@@ -1,0 +1,20 @@
+{% extends 'base.html'%}
+
+{% block title %}
+Enviar Curriculo
+
+{% endblock %}
+
+{% block conteudo %}
+	{% for curriculo in user.aluno.curriculo_set.all %}
+	{{curriculo.pk}} - <a href="{{curriculo.arquivo.url}}">Baixar Curriculo </a> {{curriculo.datacadastro}}<br>
+{% endfor %}
+
+<form enctype="multipart/form-data" method="POST">
+
+	{% csrf_token %}
+	{{form}}<br>
+	<button>Enviar Curriculo</button>
+</form>
+
+{% endblock %}

@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block title %}
+Alterar Dados
+
+{% endblock %}
+{% block conteudo %}
+	<form method="POST">
+		{% csrf_token %}
+		{{ form }}<br>
+		<button type="submit">Alterar dados</button>
+	</form>
+{% endblock %}
